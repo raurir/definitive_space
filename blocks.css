@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Share Tech', sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+body h1,
+body h2 {
+  margin: 0;
+  padding: 0 10px;
+  color: #4adfff;
+  background: rgba(74, 223, 255, 0.2);
+}
+body h1 {
+  height: 80px;
+  line-height: 80px;
+  font-size: 2em;
+}
+body h2 {
+  padding: 15px 10px;
+  font-size: 1.5em;
+}
+body p {
+  color: #aaa;
+  padding: 5px 10px;
+  font-size: 1em;
+}
+body a {
+  color: #14a1bf;
+  text-decoration: none;
+}
+body a:hover {
+  color: #4adfff;
+  text-decoration: underline;
+}
+body #main {
+  position: relative;
+  overflow: hidden;
+  background: #000;
+}
+body #about {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  width: 40%;
+}
+@media only screen and (max-width: 720px) {
+  body #about {
+    left: 10%;
+    width: 80%;
+  }
+}
+body #scroll {
+  overflow-y: scroll;
+}
+body #text {
+  position: relative;
+}
+body #centred {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 0;
+  width: 0;
+}
+body #blocks {
+  position: relative;
+}
+body canvas {
+  position: absolute;
+}
