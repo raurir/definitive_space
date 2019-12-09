@@ -1,0 +1,1 @@
+aws s3 sync . s3://definitivespace.com --exclude=* --include=blocks.* --include=index.html
